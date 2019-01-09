@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #01939A;
+}
+
+.home-btn {
+  font-size: 20px;
+  background-color: #FFF;
+  font-family: helvetica;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  background-color: #CAE3FA;
+}
+
+.axis line {
+  stroke: #2A74BB;
+  fill: #2A74BB;
+}
+
+.axis path {
+  stroke: #2A74BB;
+}
+
+.axis text {
+  font-family: Courier;
+  fill: #3F37C5;
+}
+
+.home-btn {
+  font-size: 20px;
+  background-color: #FFF;
+  font-family: helvetica;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}

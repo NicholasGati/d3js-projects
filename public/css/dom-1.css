@@ -1,0 +1,55 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #A36B67;
+}
+
+#app {
+  padding: 20px;
+}
+
+.block {
+  background-color: #FFF;
+  width: 50px;
+  margin: 5px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-family: helvetica;
+  padding: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,.55);
+  border-radius: 4px;
+  color: #61CAD4;
+}
+
+.container {
+  height: 75vh;
+  overflow: scroll;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #BCF5F9;
+  padding: 5px 10px;
+  color: #D3736B;
+  font-size: 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.home-btn {
+  font-size: 20px;
+  background-color: #FFF;
+  font-family: helvetica;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}

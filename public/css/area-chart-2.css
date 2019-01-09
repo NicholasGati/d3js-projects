@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.axis line {
+  stroke: #307FB3;
+}
+
+.axis path {
+  stroke: #307FB3;
+}
+
+.axis text {
+  stroke: #307FB3;
+  font-family: verdana;
+}
+
+.home-btn {
+  font-size: 20px;
+  background-color: #FFF;
+  font-family: helvetica;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}
+
+.car-selection {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.car-selection select {
+  background-color: #307FB3;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /*Hiding the select arrow for firefox*/
+  -moz-appearance: none;
+  /*Hiding the select arrow for chrome*/
+  -webkit-appearance:none;
+  /*Hiding the select arrow default implementation*/
+  appearance: none;
+}
+/*Hiding the select arrow for IE10*/
+.car-selection select::-ms-expand {
+    display: none;
+}
+
+.car-selection::before,
+.car-selection::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.car-selection::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.car-selection::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,.2);
+}
+
+.car-selection::after {
+  color: rgba(0,0,0,.6);
+}
+
+.car-selection select[disabled] {
+  color: rgba(0,0,0,.25);
+}
