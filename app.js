@@ -3,6 +3,10 @@ const path = require('path')
 const expressHbs = require('express-handlebars')
 const routes = require('./routes/index')
 const port = 3000
+
+/*
+* An ap object is instantiated on creation of the express server.
+*/
 const app = express()
 
 app.engine('.hbs', expressHbs({ defaultLayout: 'layout', extname: '.hbs' }))
@@ -16,7 +20,7 @@ app.listen(port, () => console.log(`Listening on port: ${port}!`))
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
-  var err = new Error('Not Found')
+  const err = new Error('Not Found')
   err.status = 404
   next(err)
 })
