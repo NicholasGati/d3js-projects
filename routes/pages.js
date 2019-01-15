@@ -1,5 +1,5 @@
 const pages = [
-  { location: '/', page: 'index'      file: 'index',       },
+  { location: '/', page: 'index',      file: 'index',       },
   { location: '/data-format-example', file: 'data-format-example' },
   { location: '/scatterplot',         file: 'scatterplot' },
   { location: '/confetti',            file: 'confetti' },
