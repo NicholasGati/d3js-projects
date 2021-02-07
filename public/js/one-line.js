@@ -30,7 +30,7 @@ const line = d3.line()
 * When you join data to a selection via '.data',
 * the number of elements in your data array
 * should match the number of elements in the selection.
-* Sincel we have 2 coordinates but want those
+* Since we have 2 coordinates but want those
 * 2 coordinates to draw ONE SVG element, PATH,
 * we can use '.datum' which binds data directly
 * without computing a join.
